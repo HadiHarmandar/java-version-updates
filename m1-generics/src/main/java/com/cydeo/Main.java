@@ -17,8 +17,7 @@ public class Main {
 
         printDoubled(items);
 
-
-        System.out.println("***********************");
+        System.out.println("****************************");
 
         FootballPlayer joe = new FootballPlayer("joe");
         BaseballPlayer pat = new BaseballPlayer("Pat");
@@ -30,7 +29,6 @@ public class Main {
 //        liverpool.addPlayer(joe);
 //        liverpool.addPlayer(pat);
         liverpool.addPlayer(beckham);
-
 
     }
 
