@@ -12,6 +12,14 @@ public class ArraySorting { // QuickSort, BubbleSort
         as.sort(qs);
         as.sort(bs);
 
+        Sorting quickSort = () -> System.out.println("Quick Sorting");
+        as.sort(quickSort);
+
+        as.sort(() -> System.out.println("Quick Sorting"));
+
+        // With Java 8 - you have access to bunch of ready functional interfaces
+
+
     }
 
     private void sort(Sorting sorting) {
