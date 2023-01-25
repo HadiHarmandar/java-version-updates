@@ -23,5 +23,11 @@ public class CountTest {
         return count;
     }
 
+    public static void print(List<? extends Number> list) {
+        for (Number number : list) {
+            System.out.println(number + " ");
+        }
+    }
+
 
 }
