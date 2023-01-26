@@ -1,7 +1,6 @@
 package com.cydeo.tasks;
 
 import com.cydeo.Apple;
-import com.cydeo.ApplePredicate;
 import com.cydeo.Color;
 
 import java.util.ArrayList;
