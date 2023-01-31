@@ -21,5 +21,13 @@ public class Main {
 
         Collections.sort(list, (x, y) -> (x > y) ? -1 : (y > x) ? 1 : 0);
 
+        // Ascending order
+        list.sort((o1, o2) -> o1.compareTo(o2));
+        System.out.println(list);
+
+        // Descending order
+        list.sort((o2, o1) -> o1.compareTo(o2));
+        System.out.println(list);
+
     }
 }
