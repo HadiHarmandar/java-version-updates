@@ -9,9 +9,9 @@ import java.util.List;
 @AllArgsConstructor
 public class Employee {
 
-    private int empId;
+    private int empId; // .stream Stream<>
     private String empName;
     private String empEmail;
-    private List<String> empPhoneNumbers;
+    private List<String> empPhoneNumbers; // .stream Stream<Stream>
 
 }
