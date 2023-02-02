@@ -21,7 +21,7 @@ public class StreamOperations {
         System.out.println("Distinct");
         Stream<Integer> stream = list.stream()
                 .filter(i -> i % 2 == 0)
-                .distinct();
+                .distinct(); // avoid duplicate
 
         stream.forEach(System.out::println); // Stream is closed
 
@@ -58,6 +58,10 @@ public class StreamOperations {
         for (String word : words) {
             System.out.println(word.length());
         }
+
+        List<Integer> numbers1 = Arrays.asList(1, 2, 3);
+        List<Integer> numbers2 = Arrays.asList(3, 4);
+
 
 
     }
