@@ -34,5 +34,7 @@ public class StateTest {
                 .flatMap(List::stream)
                 .forEach(System.out::println);
 
+
+
     }
 }

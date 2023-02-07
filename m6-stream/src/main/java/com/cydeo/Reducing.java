@@ -18,7 +18,7 @@ public class Reducing {
             sum = sum + number;
         }
 
-        int result = numbers.stream().reduce(5, (a, b) -> a + b);
+        int result = numbers.stream().reduce(0, (a, b) -> a + b);
         System.out.println(result);
 
         Optional<Integer> result2 = numbers.stream().reduce((a, b) -> a + b);
