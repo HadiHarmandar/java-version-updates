@@ -6,7 +6,7 @@ public class SwitchCaseDemo {
 
     public static void main(String[] args) {
 
-        var month = 4;
+        var month = 2;
         switch (month) {
             case 1:
             case 3:
@@ -84,9 +84,9 @@ public class SwitchCaseDemo {
                 int year = scanner.nextInt();
 
                 if (year % 4 == 0)
-                    yield 29;
+                    yield  29;
                 else
-                    yield 28;
+                    yield  28;
             }
             default -> 0;
         };
