@@ -8,7 +8,7 @@ public class OrElseThrowDemo {
 
         Optional<String> str = Optional.empty();
 
-        // System.out.println(str.get());
+        System.out.println(str.get());
 
         if (str.isPresent()) {
             System.out.println(str.get());
@@ -17,5 +17,8 @@ public class OrElseThrowDemo {
         }
 
         System.out.println(str.orElseThrow());
+        System.out.println(str.orElseThrow(() -> new RuntimeException()));
+
+
     }
 }
